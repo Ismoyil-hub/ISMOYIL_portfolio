@@ -61,3 +61,17 @@ ScrollReveal().reveal(".footer__socials", {
   ...scrollRevealOption,
   delay: 1500,
 });
+
+
+// scripts.js
+document.getElementById('subscribe-form').addEventListener('submit', function(event) {
+  event.preventDefault();
+  
+  const email = document.getElementById('email').value;
+  console.log('Email:', email);
+  
+  // Foydalanuvchini YouTube kanaliga yo'naltirish
+  window.location.href = 'https://www.youtube.com/channel/UCvbSiAh4myqx3pdEA_KOGkw';
+});
+
+window.location.href = 'https://www.youtube.com/channel/UCvbSiAh4myqx3pdEA_KOGkw';
