@@ -442,3 +442,8 @@ p {
 .subscribe-button:hover {
   background-color: #cc0000;
 }
+
+.experience__header{
+  width: 100px;
+  height: 50px;
+}
